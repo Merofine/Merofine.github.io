@@ -27,3 +27,28 @@ ul.posts li { list-style: none; }
 .cv address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 .cv address, .cv p { font-size: 1.2em; }
 .cv .download { float: right; font-size: .8em; text-transform: uppercase; }
+
+.footer {
+    display: flex;
+    padding: 0 calc((100% - 1160px)/ 2);
+    height: 80px;
+}
+
+.footer .Copyright {
+    display: flex;
+    margin-left: 18px;
+    color: #898fa0;
+    font-size: 14px;
+    flex-basis: 0;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.footer .contact {
+    display: flex;
+    flex-basis: 0;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+}
